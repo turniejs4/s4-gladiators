@@ -5,7 +5,7 @@ export const metadata = {
   description: "Turniej Smashing Four",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({ children }) {
   return (
     <html lang="pl">
       <body className="bg-black text-white">{children}</body>
