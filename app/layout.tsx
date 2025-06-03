@@ -1,3 +1,5 @@
+import "./globals.css";
+
 export const metadata = {
   title: "S4 Gladiators",
   description: "Turniej Smashing Four",
