@@ -62,12 +62,15 @@ export default function SmashingFourTurniej() {
         <TabsContent value="grupy">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {Object.entries(groups).map(([groupName, groupTeams]) => (
-              <Card key={groupName}>
+              <Card key={groupName} className="bg-zinc-900 border-zinc-800">
                 <CardContent>
                   <h2 className="text-xl font-semibold mb-2">Grupa {groupName}</h2>
                   <ul className="space-y-1">
                     {groupTeams.map((team, i) => (
-                      <li key={`${groupName}-${team.name}`} className="flex justify-between items-center">
+                      <li
+                        key={`${groupName}-${team.name}`}
+                        className="flex justify-between items-center"
+                      >
                         <span>{team.name}</span>
                         <Input
                           className="w-20 text-black"
@@ -95,7 +98,7 @@ export default function SmashingFourTurniej() {
         <TabsContent value="zawodnicy">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {teams.map((team, index) => (
-              <Card key={index}>
+              <Card key={index} className="bg-zinc-900 border-zinc-800">
                 <CardContent>
                   <h3 className="text-lg font-semibold mb-1">{team.name}</h3>
                   <ul className="text-sm list-disc pl-5">
