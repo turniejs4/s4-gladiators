@@ -1,6 +1,7 @@
 # S4 Gladiators – Turniej Smashing Four
 
-## 🔥 Projekt React (Next.js + Tailwind) do hostowania na Vercel
+## 🚀 Projekt Next.js + Tailwind CSS
+Gotowy do publikacji na Vercel lub uruchomienia lokalnie.
 
 ### ✅ Uruchomienie lokalne
 ```bash
@@ -8,12 +9,7 @@ npm install
 npm run dev
 ```
 
-### 🚀 Publikacja
-1. Wrzuć projekt do GitHub
+### 🌍 Publikacja na Vercel
+1. Wrzuć ten folder do GitHub
 2. Zaloguj się na https://vercel.com
-3. Połącz z repozytorium, wybierz framework: **Next.js**
-4. Kliknij **Deploy**
-
-Gotowe!
-
----
+3. Wybierz repozytorium, kliknij „Deploy”
